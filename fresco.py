@@ -82,7 +82,7 @@ d2.update({'v':'vibe','d':'docs'})
 #    print 'd2'
 print(d2)
 #    Remove the key value pair, 'v' - vibe, from 'd2'
-del(d2(['v'])
+del d2['v']
 #    print 'd2'
 print(d2)
 #
